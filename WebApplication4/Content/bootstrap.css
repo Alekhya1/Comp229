@@ -33,7 +33,7 @@ main,
 nav,
 section,
 summary {
-  display: block;
+  display: contents;
 }
 
 audio,
@@ -58,11 +58,11 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 1;
 }
 
 a:focus {
-  outline: thin dotted;
+  outline: thick;
 }
 
 a:active,
@@ -72,20 +72,20 @@ a:hover {
 
 h1 {
   margin: 0.67em 0;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 abbr[title] {
-  border-bottom: 1px dotted;
+  border-bottom: 2px dotted;
 }
 
 b,
 strong {
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 dfn {
-  font-style: italic;
+  font-style: normal;
 }
 
 hr {
@@ -95,8 +95,8 @@ hr {
 }
 
 mark {
-  color: #000;
-  background: #ff0;
+  color: #e6c1c7;
+  background: #f0ad4e;
 }
 
 code,
@@ -223,7 +223,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 @media print {
   * {
     color: #000 !important;
@@ -353,8 +352,8 @@ a:focus {
 
 img {
   vertical-align: middle;
-    height: 251px;
-    width: 280px;
+    height: 141px;
+    width: 186px;
 }
 
 .img-responsive {
@@ -403,7 +402,7 @@ hr {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 18px 0 10px 0;
 }
 
 .lead {
